@@ -1,0 +1,316 @@
+<!D0CTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<title>
+crops
+</title> 
+</head>
+<body >
+
+<img src="Screenshot (397).png" style="width:90px;height:50px;float:right;">
+
+</br>
+<h1 style="color:brown">Select the type of Nuts</h1>
+<hr style="width:50px;height:3px;color:orange;background-color:orange;" align="left">
+
+<b>>These prices are based on MSP issued by government and updated everyday.</b><br>
+<img src="Screenshot (408).png" style="width:450px;height:450px;float:right;margin-right:50px;">
+</br>
+</br>
+</br>
+
+<img src="Screenshot (429).png" style="width:160px;height:160px;float:left;margin-right:50px;">
+
+
+
+<table cellpadding="10">
+    <tr align="center">
+        <td><hr>
+            <b>TYPE</b><hr>
+        </td>
+        <td><hr>
+            <b>Price/quintal</b><hr>
+        </td>
+        <td><hr>
+            <b>Quantity</b><hr>
+        </td>
+    </tr>
+    
+<form name="calcuccino">
+        <tr>
+            <td>
+                Nutraj Inshell Walnuts
+            </td>
+            <td align="center">
+                INR 47500
+            </td>
+            <td align="center">
+                <input type="number" id="quantityCappucino" name="quantityCappuccino" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tulsi California  
+            </td>
+            <td align="center">
+                INR 22000
+            </td>
+            <td align="center">
+                <input type="number" id="quantityEspresso" name="quantityEspresso" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Wilson<b> 
+            </td>
+            <td align="center">
+                INR 51000
+            </td>
+            <td align="center">
+                <input type="number" id="quantityLatte" name="quantityLatte" value="0">
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <br>
+                <button type="button" onclick="calculatePrice()">Submit</button>
+            </td>
+            <td>
+            </td>
+            <td>
+                <br>
+                <hr>
+                 Total: <b>INR</b>
+                <input type="text"  name="orderTotal" id="orderTotal" Size=6 readonly>
+            </td>
+        </tr>
+        </form>
+</table>
+<br>
+<br>
+<br>
+
+
+<img src="Screenshot (425).png" style="width:160px;height:160px;float:left;margin-right:50px;margin-top:50px;">
+
+<table cellpadding="10">
+    <tr align="center">
+        <td><hr>
+            <b>TYPE</b><hr>
+        </td>
+        <td><hr>
+            <b>Price/quintal</b><hr>
+        </td>
+        <td><hr>
+            <b>Quantity</b><hr>
+        </td>
+    </tr>
+<form name="calcuccino">
+        <tr>
+            <td>
+                Green
+            </td>
+            <td align="center">
+                INR 4800
+            </td>
+            <td align="center">
+                <input type="number" id="quantityCappucino" name="quantityCappuccino" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Java
+            </td>
+            <td align="center">
+                INR 4900
+            </td>
+            <td align="center">
+                <input type="number" id="quantityEspresso" name="quantityEspresso" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Red Natal
+            </td>
+            <td align="center">
+                INR 6100
+            </td>
+            <td align="center">
+                <input type="number" id="quantityLatte" name="quantityLatte" value="0">
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <br>
+                <button type="button" onclick="calculatePrice()">Submit</button>
+            </td>
+            <td>
+            </td>
+            <td>
+                <br>
+                <hr>
+                 Total: <b>INR</b>
+                <input type="text"  name="orderTotal" id="orderTotal" Size=6 readonly>
+            </td>
+        </tr>
+        </form>
+</table>
+        <br>
+        
+       
+    </form>
+</br>
+</br>
+
+<img src="Screenshot (420).png" style="width:160px;height:160px;float:left;margin-right:50px;margin-top:50px;">
+
+<br>
+<br>
+
+<table cellpadding="10">
+    <tr align="center">
+        <td><hr>
+            <b>TYPE</b><hr>
+        </td>
+        <td><hr>
+            <b>Price</b><hr>
+        </td>
+        <td><hr>
+            <b>Quantity</b><hr>
+        </td>
+    </tr>
+    
+
+<form name="calcuccino">
+        <tr>
+            <td>
+                California 
+            </td>
+            <td align="center">
+                INR 47500
+            </td>
+            <td align="center">
+                <input type="number" id="quantityCappucino" name="quantityCappuccino" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Shalimar 
+            </td>
+            <td align="center">
+                INR 32000
+            </td>
+            <td align="center">
+                <input type="number" id="quantityEspresso" name="quantityEspresso" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Merced 
+            </td>
+            <td align="center">
+                INR 51000
+            </td>
+            <td align="center">
+                <input type="number" id="quantityLatte" name="quantityLatte" value="0">
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <br>
+                <button type="button" onclick="calculatePrice()">Submit</button>
+            </td>
+            <td>
+            </td>
+            <td>
+                <br>
+                <hr>
+                 Total: <b>INR</b>
+                <input type="text"  name="orderTotal" id="orderTotal" Size=6 readonly>
+            </td>
+        </tr>
+        </form>
+</table>
+</br>
+
+
+</br>
+</br>
+
+<script>
+            function calculateAmount(val) {
+                var tot_price = val * 100;
+                /*display the result*/
+                var divobj = document.getElementById('tot_amount');
+                divobj.value = tot_price;
+            }
+
+             function totalIt() {
+  var input = document.getElementsByName("product");
+  var total = 0;
+  for (var i = 0; i < input.length; i++) {
+    if (input[i].checked) {
+      total += parseFloat(input[i].value);
+    }
+  }
+  document.getElementById("total").value = "INR" + total.toFixed(2);
+}
+
+ function totalIt2() {
+  var input = document.getElementsByName("product");
+  var total = 0;
+  for (var i = 0; i < input.length; i++) {
+    if (input[i].checked) {
+      total += parseFloat(input[i].value);
+    }
+  }
+  document.getElementById("total2").value = "INR" + total.toFixed(2);
+}
+
+function totalIt1() {
+  var input = document.getElementsByName("product");
+  var total = 0;
+  for (var i = 0; i < input.length; i++) {
+    if (input[i].checked) {
+      total += parseFloat(input[i].value);
+    }
+  }
+  document.getElementById("total1").value = "INR" + total.toFixed(2);
+}
+
+
+$("#orderTotal").click(function () {
+    calculatePrice();
+});
+
+function calculatePrice()
+{
+    //select data
+    var cappuccino =47500 ;
+    var espresso = 32000;
+    var latte = 51000;
+   
+
+    var quantityCappuccino = $("#quantityCappucino").val();
+    var quantityEspresso =  $("#quantityEspresso").val();
+    var quantityLatte =  $("#quantityLatte").val();
+    
+
+    //calculate final cost
+    var total = (quantityCappuccino * cappuccino) + (quantityEspresso * espresso) + (quantityLatte * latte)  ;
+
+    console.log(total);
+    //print value to orderTotal
+    $("#orderTotal").val(total);
+}
+
+
+
+        </script>
